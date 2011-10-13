@@ -4,7 +4,7 @@
       "Chris Weyl <cweyl@alumni.drew.edu>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Dist::Zilla version 4.300002, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "lgpl_2_1"
    ],
@@ -22,7 +22,7 @@
       "runtime" : {
          "requires" : {
             "Hash::MultiValue" : 0,
-            "Moose::Exporter" : 0,
+            "Sub::Exporter" : 0,
             "perl" : "5.006",
             "strict" : 0,
             "warnings" : 0
@@ -45,13 +45,14 @@
       "bugtracker" : {
          "web" : "https://github.com/RsrchBoy/catalystx-alt-routes/issues"
       },
+      "homepage" : "http://metacpan.org/release/CatalystX-Alt-Routes/",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/RsrchBoy/catalystx-alt-routes.git",
          "web" : "https://github.com/RsrchBoy/catalystx-alt-routes"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -177,7 +178,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Test::Compile",
             "name" : "@RSRCHBOY/Test::Compile",
-            "version" : "1.112400"
+            "version" : "1.112770"
          },
          {
             "class" : "Dist::Zilla::Plugin::Test::Portability",
@@ -202,7 +203,7 @@
          {
             "class" : "Dist::Zilla::Plugin::ReportVersions",
             "name" : "@RSRCHBOY/ReportVersions",
-            "version" : "1.110730"
+            "version" : "1.112720"
          },
          {
             "class" : "Dist::Zilla::Plugin::NoSmartCommentsTests",

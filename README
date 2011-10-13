@@ -2,7 +2,7 @@ NAME
     CatalystX::Alt::Routes - A DSL for declaring controller paths
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         package MyApp::Controller::Foo;
